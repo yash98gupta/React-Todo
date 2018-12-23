@@ -1,0 +1,326 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <!-- Compiled and minified CSS -->
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+
+   <!-- Compiled and minified JavaScript -->
+   <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+    <title>Workduler</title>
+    <style>
+    .container{
+      width: 100%
+    }
+
+    .tasks_list{
+      height: 50px
+    }
+
+    body{
+      background: #fbfbfb
+    }
+
+    .dashboard_card{
+      margin-top: 2%;
+    }
+
+    .left_dashboard{
+      margin-right: 30px;
+      position: fixed;
+      z-index: 1
+    }
+    .task_headline{
+    font-size: 16px;
+    margin-top: 10px;
+    margin-bottom: 15px;
+    font-weight: 500;
+    color: #4a4a4a;
+    border-bottom: 1px solid #d4d4d4;
+    padding-bottom: 8px;
+    font-family: sans-serif;
+    display: block;
+    }
+
+    @media screen and (max-width: 991px) {
+  .right_dashboard {
+    margin-top: 24%
+  }
+}
+
+
+    </style>
+  </head>
+  <body>
+
+    <!-- navbar -->
+    <div class="navbar-fixed">
+    <nav class="nav-wrapper">
+      <div class="container">
+        <a href="#" class="brand-logo">Workduler</a>
+        <ul class="right">
+          <li><a href="#">Dashboard</a></li>
+          <li><a href="#">Projects</a></li>
+          <li><a href="#">Events</a></li>
+          <li><a href="#">Logout</a></li>
+        </ul>
+      </div>
+    </nav>
+  </div>
+
+    <!-- left card -->
+    <div class="container">
+      <div class="row">
+          <div class="col l3 dashboard_card left_dashboard m12 s12">
+            <div class="card z-depth-2">
+              <div class="card-action">
+                <ul>
+                  <li class="tasks_list"><a>Deadline Approaching</a><li>
+                  <li class="tasks_list"><a>Tasks Incomplete</a><li>
+                  <li class="tasks_list"><a>Tasks Completed</a><li>
+                </ul>
+              </div>
+            </div>
+          </div>
+
+      <!-- right cards -->
+      <div class="col l8 right right_dashboard">
+
+        <div class="col l8 dashboard_card">
+          <a class="task_headline">Tasks Scheduled</a>
+        </div>
+
+        <div class="col l6">
+          <div class="card z-depth-2">
+            <div class="card-content">
+              <span class="card-title">
+                <!-- Switch -->
+              <div class="switch">
+                  Practile File
+                <label class="right">
+
+                  <input type="checkbox">
+                  <span class="lever"></span>
+                  <i class="material-icons">check</i>
+                </label>
+              </div>
+              </span>
+              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                 Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure
+                 dolor in reprehenderit in voluptate velit esse cillum dolore eu
+              </p>
+            </div>
+            <div class="card-action">
+                <a>view</a>
+                <a>Edit</a>
+                <a>Create Subtask</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="col l6">
+          <div class="card z-depth-2">
+            <div class="card-content">
+              <span class="card-title">
+                <!-- Switch -->
+              <div class="switch">
+                  Practile File
+                <label class="right">
+
+                  <input type="checkbox">
+                  <span class="lever"></span>
+                  <i class="material-icons">check</i>
+                </label>
+              </div>
+              </span>
+              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                 Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure
+                 dolor in reprehenderit in voluptate velit esse cillum dolore eu
+              </p>
+            </div>
+            <div class="card-action">
+                <a>view</a>
+                <a>Edit</a>
+                <a>Create Subtask</a>
+            </div>
+          </div>
+        </div>
+
+
+        <!-- extra todos start here -->
+        <div class="col l6">
+          <div class="card z-depth-2">
+            <div class="card-content">
+              <span class="card-title">
+                <!-- Switch -->
+              <div class="switch">
+                  Practile File
+                <label class="right">
+
+                  <input type="checkbox">
+                  <span class="lever"></span>
+                  <i class="material-icons">check</i>
+                </label>
+              </div>
+              </span>
+              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                 Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure
+                 dolor in reprehenderit in voluptate velit esse cillum dolore eu
+              </p>
+            </div>
+            <div class="card-action">
+                <a>view</a>
+                <a>Edit</a>
+                <a>Create Subtask</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="col l6">
+          <div class="card z-depth-2">
+            <div class="card-content">
+              <span class="card-title">
+                <!-- Switch -->
+              <div class="switch">
+                  Practile File
+                <label class="right">
+
+                  <input type="checkbox">
+                  <span class="lever"></span>
+                  <i class="material-icons">check</i>
+                </label>
+              </div>
+              </span>
+              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                 Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure
+                 dolor in reprehenderit in voluptate velit esse cillum dolore eu
+              </p>
+            </div>
+            <div class="card-action">
+                <a>view</a>
+                <a>Edit</a>
+                <a>Create Subtask</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="col l6">
+          <div class="card z-depth-2">
+            <div class="card-content">
+              <span class="card-title">
+                <!-- Switch -->
+              <div class="switch">
+                  Practile File
+                <label class="right">
+                  <input type="checkbox">
+                  <span class="lever"></span>
+                  <i class="material-icons">check</i>
+                </label>
+              </div>
+              </span>
+              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                 Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure
+                 dolor in reprehenderit in voluptate velit esse cillum dolore eu
+              </p>
+            </div>
+            <div class="card-action">
+                <a>view</a>
+                <a>Edit</a>
+                <a>Create Subtask</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="col l6">
+          <div class="card z-depth-2">
+            <div class="card-content">
+              <span class="card-title">
+                <!-- Switch -->
+              <div class="switch">
+                  Practile File
+                <label class="right">
+
+                  <input type="checkbox">
+                  <span class="lever"></span>
+                  <i class="material-icons">check</i>
+                </label>
+              </div>
+              </span>
+              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                 Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure
+                 dolor in reprehenderit in voluptate velit esse cillum dolore eu
+              </p>
+            </div>
+            <div class="card-action">
+                <a>view</a>
+                <a>Edit</a>
+                <a>Create Subtask</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="col l6">
+          <div class="card z-depth-2">
+            <div class="card-content">
+              <span class="card-title">
+                <!-- Switch -->
+              <div class="switch">
+                  Practile File
+                <label class="right">
+
+                  <input type="checkbox">
+                  <span class="lever"></span>
+                  <i class="material-icons">check</i>
+                </label>
+              </div>
+              </span>
+              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                 Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure
+                 dolor in reprehenderit in voluptate velit esse cillum dolore eu
+              </p>
+            </div>
+            <div class="card-action">
+                <a>view</a>
+                <a>Edit</a>
+                <a>Create Subtask</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="col l6">
+          <div class="card z-depth-2">
+            <div class="card-content">
+              <span class="card-title">
+                <!-- Switch -->
+              <div class="switch">
+                  Practile File
+                <label class="right">
+
+                  <input type="checkbox">
+                  <span class="lever"></span>
+                  <i class="material-icons">check</i>
+                </label>
+              </div>
+              </span>
+              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                 Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure
+                 dolor in reprehenderit in voluptate velit esse cillum dolore eu
+              </p>
+            </div>
+            <div class="card-action">
+                <a>view</a>
+                <a>Edit</a>
+                <a>Create Subtask</a>
+            </div>
+          </div>
+        </div>
+        <!-- extra todos end here -->
+
+      </div>
+
+      </div>
+    </div>
+
+  </body>
+</html>
